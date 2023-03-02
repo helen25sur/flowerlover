@@ -1,0 +1,25 @@
+.btn {
+  /* Reset */
+  border: none;
+  background-color: transparent;
+
+  /* common styles */
+  padding: var(--gap-md) var(--gap-xl);
+  border-radius: var(--brd-radius);
+}
+
+.solid {
+  background-color: var(--clr-dark-rose);
+  color: var(--clr-white);
+}
+
+.outline {
+  color: var(--clr-white);
+  border: 1px solid var(--clr-white);
+  text-transform: uppercase;
+}
+
+.small {
+  padding: 0px 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,28 @@
+:root {
+  --min-width: 340px;
+  --max-width: 1312px;
+  --header-height: 90px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  --flap: minmax(16px, 1fr);
+  --content: minmax(var(--min-width), var(--max-width));
+
+  display: grid;
+  grid-template-columns:
+    var(--flap) var(--content) var(--flap);
+}
+
+.grid-content {
+  grid-column: 2/3;
+}
+
+.grid-content-full {
+  grid-column: 1/-1;
+}

@@ -1,0 +1,9 @@
+.card {
+  width: 320px;
+  background: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #444444;
+  border-radius: var(--brd-radius);
+}

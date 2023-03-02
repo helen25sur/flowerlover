@@ -1,0 +1,25 @@
+:root {
+  /* ========== Colors ========== */
+  --clr-black: #000000;
+  --clr-white: #F5EBEB;
+  --clr-grey: #6F6567;
+  --clr-blue: #55B8FF;
+  --clr-dark-rose: #A93B59;
+  --clr-rose: #B96A7F;
+  --clr-rose-transp: rgba(185, 106, 127, 0.7);
+  --clr-light-rose: #C9A1AC;
+
+  /* =========== Gaps =========== */
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+  --gap-xl: 32px;
+  --gap-xxl: 46px;
+
+  /* ========== Width ========= */
+  --width-full: 100%;
+
+  /* ======== Another Properties ========== */
+  --brd-radius: 15px;
+}
