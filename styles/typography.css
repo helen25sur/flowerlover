@@ -8,6 +8,16 @@
   font-style: normal;
 }
 
+.logo-heading {
+  font-family: 'Spline Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .heading-1 {
   font-weight: 400;
   font-size: 86px;

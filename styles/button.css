@@ -4,6 +4,7 @@
   background-color: transparent;
 
   /* common styles */
+  display: flex;
   padding: var(--gap-md) var(--gap-xl);
   border-radius: var(--brd-radius);
 }

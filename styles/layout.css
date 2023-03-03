@@ -26,3 +26,10 @@
 .grid-content-full {
   grid-column: 1/-1;
 }
+
+.section-content {
+  max-width: var(--max-width);
+  min-width: var(--min-width);
+  display: flex;
+  flex-flow: wrap;
+}
