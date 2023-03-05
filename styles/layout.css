@@ -32,4 +32,5 @@
   min-width: var(--min-width);
   display: flex;
   flex-flow: wrap;
+  margin: 0 auto;
 }

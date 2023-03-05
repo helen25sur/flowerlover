@@ -1,0 +1,71 @@
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: inherit;
+}
+
+select:focus {
+  outline: 1px solid;
+}
+
+.select {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--clr-white);
+  background-image: url('../assets/images/icons/expand_more.svg');
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.select-block:nth-of-type(odd) {
+  width: 140px;
+}
+
+.select-block:nth-of-type(even) {
+  width: 230px;
+}
+
+.select-block {
+  position: relative;
+  padding: var(--gap-lg) var(--gap-md);
+  padding-right: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.select-block::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(68, 68, 68, 0.1);
+}
+
+.select-block .btn {
+  display: none;
+}
+
+option {
+  display: inline-block;
+  margin: 12px var(--gap-md);
+  background: rgba(185, 106, 127, 0.5);
+  border-radius: var(--brd-radius);
+}
+
+option:focus-visible {
+  outline: 1px solid var(--clr-rose);
+  background-color: var(--clr-rose);
+}
+
+option:hover {
+  background-color: var(--clr-rose);
+}
