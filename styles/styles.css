@@ -135,6 +135,7 @@ a {
 
 .catalog-content {
   flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 .catalog-heading {
@@ -163,3 +164,111 @@ a {
   border-radius: var(--brd-radius);
 }
 
+/* best-selling list */
+
+.best-selling-block {
+  margin-top: var(--gap-xxl);
+}
+
+.best-selling-heading {
+  text-align: center;
+}
+
+.best-selling-list {
+  width: 100%;
+  padding: var(--gap-lg) 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  gap: var(--gap-xl) 75px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.best-selling-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.best-selling-item,
+.best-selling-item img {
+  border-radius: var(--brd-radius);
+}
+
+.best-selling-item img {
+  margin: var(--gap-md);
+}
+
+.best-selling-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.best-selling-descr {
+  padding-bottom: var(--gap-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price {
+  margin-bottom: var(--gap-sm);
+  color: var(--clr-black);
+}
+
+.old-price {
+  color: var(--clr-black);
+}
+
+.item-number {
+  color: var(--clr-grey);
+}
+
+.badge {
+  position: absolute;
+  bottom: 145px;
+  padding: 6px 20px;
+  border: 2px solid #FFFFFF;
+  border-radius: 22px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.badge.badge-new {
+  background-color: var(--clr-rose);
+}
+
+.badge.badge-water {
+  background-color: var(--clr-blue);
+}
+
+.badge-new .fa-seedling,
+.badge-water .fa-droplet {
+  margin-right: var(--gap-sm);
+}
+
+.like-btn {
+  position: absolute;
+  top: var(--gap-md);
+  right: var(--gap-md);
+  width: 28px;
+  height: 28px;
+  font-size: 28px;
+  line-height: 28px;
+  border: none;
+  background-color: transparent;
+  color: #FF5555;
+  cursor: pointer;
+  transition: color 0.3s ease-in;
+}
+
+.like-btn:hover {
+  color: var(--clr-dark-rose);
+}
