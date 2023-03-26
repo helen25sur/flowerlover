@@ -301,6 +301,10 @@ a {
   padding-left: 120px;
 }
 
+.quality-item:nth-of-type(even) .quality-description {
+  padding-right: 120px;
+}
+
 .quality-description {
   padding-top: 120px;
 }
@@ -311,4 +315,125 @@ a {
 
 .quality-description p {
   font-weight: 300;
+}
+
+/* =========== APPLICATION =========== */
+
+.application-section {
+  margin-top: 132px;
+  /* padding-bottom: 120px; */
+  background-image: url('../assets/images/bg-images/flowers-3.png');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+
+.application-content {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.application-heading {
+  margin-bottom: 140px;
+}
+
+.application-form-desription {
+  margin-bottom: 320px;
+  padding: var(--gap-xl) 120px;
+  display: flex;
+  background-color: var(--clr-rose-transp);
+  border-radius: 10px;
+}
+
+.application-form,
+.application-description {
+  flex: 1 0 50%;
+}
+
+.application-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.application-form-text {
+  margin-bottom: var(--gap-xxl);
+}
+
+.application-form-input {
+  min-width: 416px;
+  margin-bottom: 40px;
+  padding: var(--gap-lg) var(--gap-xl);
+  padding-right: 95px;
+  border-radius: var(--brd-radius);
+  border: none;
+  font-weight: 700;
+}
+
+.application-form-input::placeholder {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #8D8D8D;
+}
+
+.application-form-input_label {
+  position: relative;
+}
+
+.application-form-input_label::after {
+  content: "";
+  position: absolute;
+  width: 95px;
+  height: 73px;
+  top: 0;
+  right: 0;
+  border-left: 1px solid #8D8D8D;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.application-form-input_label[for="customer-name"]::after {
+  background-image: url('../assets/images/icons/person-icon.svg');
+  background-size: 28px;
+}
+
+.application-form-input_label[for="customer-phone"]::after {
+  background-image: url('../assets/images/icons/phone-icon.svg');
+  background-size: 24px;
+}
+
+.application-form-btn {
+  min-width: 416px;
+  justify-content: center;
+}
+
+.application-desription-text {
+  margin-bottom: 50px;
+}
+
+.application-desription-list {
+  color: rgba(255, 255, 255, 0.71);
+}
+
+.application-desription-item {
+  position: relative;
+  margin-bottom: var(--gap-xl);
+  padding: 12px;
+  padding-left: 80px;
+}
+
+.application-desription-item::before {
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-image: url('../assets/images/icons/checkmark-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
