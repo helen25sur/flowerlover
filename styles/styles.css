@@ -437,3 +437,47 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* ============== CUSTOMERS ============ */
+
+.customers-section {
+  margin-top: -210px;
+  padding-bottom: 120px;
+}
+
+.customers-content {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.block-customers-list {
+  position: relative;
+  margin-top: 140px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+
+.customers-list-btn {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.customers-list-btn-prev {
+  left: -42px;
+}
+
+.customers-list-btn-next {
+  right: -42px;
+}
+
+.customers-list-btn-next img {
+  transform: rotate(180deg);
+}
