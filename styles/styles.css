@@ -276,3 +276,39 @@ a {
 .like-btn:hover {
   color: var(--clr-dark-rose);
 }
+
+/* =========== QUALITY =========== */
+
+.quality-item {
+  display: flex;
+}
+
+.quality-item .quality-item-img,
+.quality-item .quality-description {
+  flex-basis: 50%;
+  order: 0;
+}
+
+.quality-item .quality-item-img {
+  border-radius: var(--brd-radius);
+}
+
+.quality-item:nth-of-type(even)>.quality-item-img {
+  order: 1;
+}
+
+.quality-item:nth-of-type(odd) .quality-description {
+  padding-left: 120px;
+}
+
+.quality-description {
+  padding-top: 120px;
+}
+
+.quality-item .quality-description-title {
+  margin-bottom: var(--gap-md);
+}
+
+.quality-description p {
+  font-weight: 300;
+}
