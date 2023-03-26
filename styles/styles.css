@@ -131,6 +131,10 @@ a {
 .catalog-section {
   margin-bottom: 92px;
   padding-top: var(--gap-xxl);
+  background-image: url('../assets/images/bg-images/flowers-2.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
 }
 
 .catalog-content {
