@@ -481,3 +481,60 @@ a {
 .customers-list-btn-next img {
   transform: rotate(180deg);
 }
+
+/* ============== FOOTER =========== */
+
+.footer {
+  padding: var(--gap-xxl) 0;
+  border-top: 1px solid var(--clr-dark-rose);
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-nav-list .nav-item {
+  margin-bottom: var(--gap-lg);
+}
+
+.footer-navigation,
+.contacts {
+  width: 250px;
+}
+
+.logo-socials {
+  margin: 0 auto;
+}
+
+.logo-footer {
+  margin-top: var(--gap-xs);
+  text-transform: uppercase;
+}
+
+.social-list {
+  margin-top: var(--gap-xxl);
+  display: flex;
+  width: 212px;
+  justify-content: space-between;
+}
+
+.social-item {
+  vertical-align: baseline;
+}
+
+.social-link {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.contacts-detail {
+  margin-bottom: var(--gap-lg);
+  text-align: center;
+  font-style: normal;
+}
+
+.contacts-detail address {
+  text-align: center;
+}
